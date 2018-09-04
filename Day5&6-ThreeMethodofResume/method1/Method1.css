@@ -1,0 +1,17 @@
+.data-head {
+    display: inline;
+    font-size: 1em;
+}
+
+#basic-info p, #contact p {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+
+#abilities-description p,
+#education-exprience p,
+#project-exprience p {
+    margin-top: 0px;
+}
