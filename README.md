@@ -1,1 +1,1 @@
-# BaiduFrontEndCollege
+# myBaiduFrontEndCollege-2018
