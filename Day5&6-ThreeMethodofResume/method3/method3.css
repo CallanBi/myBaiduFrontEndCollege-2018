@@ -1,0 +1,65 @@
+h1 {
+    background: #848484;
+    color: #FEFEFE;
+    margin: 0px 0px 0px 0px;
+    padding-left: 20px;
+    line-height: 120px;
+}
+
+.title {
+    float: left;
+    width: 190px;
+    text-align: center;
+    line-height: 200px;
+    background: #CBCBCB;
+    margin: 0px 20px 0px 0px;
+
+}
+
+section {
+    display: block;
+    border-top: 1px solid #CBCBCB;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 202px;
+}
+
+#abilities-description .data-head,
+#education-exprience .data-head,
+#project-exprience .data-head{
+    display: inline-block;
+    font-size: 1em;
+}
+
+#basic-info p, #contact p {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+#abilities-description p,
+#education-exprience p,
+#project-exprience p {
+    display: inline;
+}
+
+#abilities-description p::after,
+#education-exprience p::after,
+#project-exprience p::after {
+    content: "\A";
+    white-space: pre;
+}
+
+
+#abilities-description p:first-child,
+#education-exprience p:first-child,
+#project-exprience p:first-child {
+    display: block;
+}
+
+
+
+#basic-info .data-head, #contact .data-head {
+    display: inline;
+    font-size: 1em;
+}

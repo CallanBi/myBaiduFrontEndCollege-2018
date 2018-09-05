@@ -1,0 +1,35 @@
+h1 {
+    display: block;
+    float:left;
+    width: 180px;
+    padding-top:20px;
+    margin-top: 0px;
+    margin-bottom: -99999px;
+    padding-bottom: 680px;
+    overflow: hidden;
+    background-color: #67A4F8;
+    color: #FEFEFE;
+    text-align: center;
+}
+
+#main {
+    padding-left: 200px;
+}
+
+.data-head {
+    display: inline;
+    font-size: 1em;
+}
+
+#basic-info p, #contact p {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+
+#abilities-description p,
+#education-exprience p,
+#project-exprience p {
+    margin-top: 0px;
+}
