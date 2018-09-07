@@ -10,7 +10,7 @@
    ### 分别尝试使用Float、Position或者Flexbox来实现如下需求：
    #### 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度
    [float方法](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day7-8 NumerousLayouts+SpecifiedDesign/task1/task1-float/task1.html) <br>
-   [position方法]((https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day7-8 NumerousLayouts+SpecifiedDesign/task1/task1-position/task1.html) <br>
+   [position方法](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day7-8 NumerousLayouts+SpecifiedDesign/task1/task1-position/task1.html) <br>
    [flexbox方法](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day7-8 NumerousLayouts+SpecifiedDesign/task1/task1-flex/task1.html) <br>
    #### 实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化
    [float方法](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day7-8 NumerousLayouts+SpecifiedDesign/task2/task2-float/task2.html) <br>
