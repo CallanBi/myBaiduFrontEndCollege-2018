@@ -1,6 +1,6 @@
 # myBaiduFrontEndCollege-2018
 
-# #Day5-Day6 三种简历<br>
+## Day5-Day6 三种简历<br>
 
  [第一种](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day5&6-ThreeMethodofResume/method1/Resume.html) <br>
  [第二种](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day5&6-ThreeMethodofResume/method2/main.html) <br>
