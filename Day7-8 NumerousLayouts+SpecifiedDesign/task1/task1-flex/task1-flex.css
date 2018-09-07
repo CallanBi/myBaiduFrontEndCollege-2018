@@ -1,0 +1,24 @@
+#container {
+    border: 1px solid blueviolet;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: flex-start;
+}
+
+#main {
+    border: 1px solid sandybrown;
+    background-color: mediumaquamarine;
+    flex: 7;
+    order: 2;
+
+
+
+}
+
+#sidebar {
+    border: 1px solid darkslategray;
+    background-color: lightcoral;
+    flex: 3;
+    order: 1;
+}
+

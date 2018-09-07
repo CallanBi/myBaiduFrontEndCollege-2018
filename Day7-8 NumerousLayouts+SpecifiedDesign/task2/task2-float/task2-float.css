@@ -1,0 +1,23 @@
+#container {
+    border: 1px solid blueviolet;
+    background-color: cornflowerblue;
+    overflow: auto;
+}
+
+#main {
+    border: 1px solid sandybrown;
+    background-color: mediumaquamarine;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 300px;
+
+}
+
+#sidebar {
+    border: 1px solid darkslategray;
+    background-color: lightcoral;
+    float: left;
+    width: 300px;
+    margin-left: -100%;
+}
+

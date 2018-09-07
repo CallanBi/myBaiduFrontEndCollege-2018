@@ -1,0 +1,190 @@
+body {
+    font-family: -apple-system, BlinkicMacSystemFont, opensans, Optima, "Mrosoft Yahei", sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+nav {
+    background-color: #333333;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+}
+
+#nav-middle {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    float: left;
+}
+
+#navigator {
+    float: right;
+    margin-top: 10px;
+}
+
+#navigator a {
+    color: white;
+}
+
+#banner {
+    position: relative;
+    height: 300px;
+    background-color: #66BB33;
+}
+
+#switch {
+    position: absolute;
+    bottom: 0px;
+    right: 14%;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+}
+
+#switch a {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px 5px 10px 0px;
+    width: 30px;
+    height: 35px;
+    background-color: #E0F1D6;
+    filter: opacity(50%);
+    transition: all 0.5s cubic-bezier(0.4, 0.29, 0, 1.96);
+    border: 1px solid black;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    line-height: 35px;
+}
+
+#switch #selected-banner {
+    height: 50px;
+    filter: opacity(100%);
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+#switch a:hover {
+    height: 50px;
+    filter: opacity(100%);
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+#tags {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+
+#hr {
+    position: relative;
+    top: -1px;
+    border-top: 1px solid lightgray;
+}
+
+
+#tags .tag {
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    background-color: #EEEEEE;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+#tags a:hover {
+    background-color: white;
+    border-bottom: white;
+    border-bottom-width: thick;
+    position: relative;
+    line-height: 51px;
+    top: 1px;
+    z-index: 1;
+}
+
+#tags #selected-tag {
+    background-color: white;
+    border-bottom: white;
+    position: relative;
+    line-height: 51px;
+    top: 1px;
+    z-index: 1;
+}
+
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+#line1, #line2, #line3 {
+    display: flex;
+    height: 175px;
+}
+
+#line1 {
+    margin-top: 5px;
+}
+
+#content .content {
+    border: 1px solid lightgray;
+    min-width: 80px;
+    text-align: center;
+    line-height: 175px;
+    box-sizing: border-box;
+    margin:5px;
+}
+
+#content1,
+#content2{
+    width: 325px;
+    min-width: 80px;
+}
+
+#content3 {
+    flex: 1;
+}
+
+#content4, #content5, #content6, #content7{
+    flex: 1;
+}
+
+#content8, #content9, #content10 {
+    flex: 1;
+}
+
+footer {
+    height: 120px;
+    background-color: #666666;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
