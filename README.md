@@ -1,5 +1,5 @@
 # myBaiduFrontEndCollege-2018
-   跟着百度前端学院自己写的一些作业。
+   跟着百度前端学院自己写的一些作业。<br>
    百度前端技术学院：[http://ife.baidu.com/](http://ife.baidu.com/)
 ## Day5-Day6 三种简历<br>
    [第一种](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day5&6-ThreeMethodofResume/method1/Resume.html) <br>
