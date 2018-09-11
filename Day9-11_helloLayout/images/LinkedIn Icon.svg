@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="LinkedIn_Icon.svg" data-name="LinkedIn Icon.svg" class="cls-1" d="M1323.64,6093.01v-10.12h-3.43v10.12h3.43Zm-1.71-11.5a1.758,1.758,0,1,0-1.92-1.75,1.758,1.758,0,0,0,1.89,1.75h0.03Zm3.61,11.5h3.43v-5.65a2.263,2.263,0,0,1,.11-0.82,1.866,1.866,0,0,1,1.76-1.23c1.24,0,1.74.92,1.74,2.28v5.42h3.43v-5.8c0-3.11-1.7-4.56-3.95-4.56a3.421,3.421,0,0,0-3.11,1.71h0.02v-1.47h-3.43c0.04,0.95,0,10.12,0,10.12h0Z" transform="translate(-1320 -6078)"/>
+</svg>
