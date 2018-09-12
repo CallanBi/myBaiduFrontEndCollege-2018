@@ -1,0 +1,25 @@
+#queue {
+}
+
+#left-out {
+    margin-left: 30px;
+}
+
+.number {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#random-number {
+    margin-left: 15px;
+}
+
+.number:hover {
+    cursor: pointer; /*改变鼠标指针*/
+}
