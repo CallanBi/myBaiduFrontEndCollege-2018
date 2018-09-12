@@ -1,7 +1,7 @@
 # myBaiduFrontEndCollege-2018
 跟着百度前端学院自己写的一些作业。<br>
 百度前端技术学院：[http://ife.baidu.com/](http://ife.baidu.com/) <br>
-另：JavaScript部分我先从2017年的斌斌学院开始做练习。
+另：JavaScript部分我先从2017年的斌斌学院开始做练习。<br>
 百度前端2017年题库： <br>
 [http://ife.baidu.com/2017/](http://ife.baidu.com/2017/)
 ## Day2-4 给自己做个在线简历吧
