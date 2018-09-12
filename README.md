@@ -13,7 +13,7 @@
 - [第二种](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day5&6-ThreeMethodofResume/method2/main.html) <br>
 - [第三种](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day5&6-ThreeMethodofResume/method3/resume.html) <br>
 ## Day7-Day8 学习布局
-题目：[传送门](http://ife.baidu.com/course/detail/id/42)
+题目：[传送门](http://ife.baidu.com/course/detail/id/42) <br>
 分别尝试使用Float、Position或者Flexbox来实现如下需求：<br>
 - 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 <br>
       - [float方法](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day7-8%20NumerousLayouts+SpecifiedDesign/task1/task1-float/task1.html) <br>
