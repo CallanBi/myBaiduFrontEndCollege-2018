@@ -39,13 +39,13 @@
 ## 任务二：零基础JavaScript编码（二）
 
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/91)
--[demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/零基础JavaScirpt练习/task2/task2.html)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/零基础JavaScirpt练习/task2/task2.html)
 
 ## 任务三：零基础JavaScript编码（三）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/98)
--[demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/零基础JavaScirpt练习/task3/task3.html)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/零基础JavaScirpt练习/task3/task3.html)
 
 ## 任务四：基础JavaScript练习（一）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/103)
--[demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/基础JavaScript练习/task1/task1.html)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/基础JavaScript练习/task1/task1.html)
 
