@@ -1,0 +1,22 @@
+.queue {
+    height: 300px;
+
+}
+
+.number {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    width: 30px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#input-number {
+    display: inline-block;
+    width: 200px;
+}
