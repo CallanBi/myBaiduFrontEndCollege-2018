@@ -44,40 +44,48 @@ document.addEventListener("click", function(event){
 var queue = document.getElementById("queue");
 
 function leftIn() {
-    var input = document.getElementById("input-number").value;
-    if (input === "") {
-        alert("请输入数字");
-    } else if (!isNaN(input)) {
-        if (input >= 10 && input <= 100) {
-            var newNumber = document.createElement("div");
-            newNumber.className = "number"; //不是class,class是javaScript的保留字
-            newNumber.innerHTML = input;
-            newNumber.style.height = input*3 + "px";
-            queue.insertBefore(newNumber, queue.firstChild);
+    if (queue.childNodes.length <= 60) {
+        var input = document.getElementById("input-number").value;
+        if (input === "") {
+            alert("请输入数字");
+        } else if (!isNaN(input)) {
+            if (input >= 10 && input <= 100) {
+                var newNumber = document.createElement("div");
+                newNumber.className = "number"; //不是class,class是javaScript的保留字
+                newNumber.innerHTML = input;
+                newNumber.style.height = input * 3 + "px";
+                queue.insertBefore(newNumber, queue.firstChild);
+            } else {
+                alert("请输入10~100范围内的数字");
+            }
         } else {
-            alert("请输入10~100范围内的数字");
+            alert("请输入有效的数字");
         }
-    } else {
-        alert("请输入有效的数字");
+    }else {
+        alert("队列里的数字不能超过60个");
     }
 }
 
 function rightIn() {
-    var input = document.getElementById("input-number").value;
-    if (input === "") { //未输入数字时仍能插入空白的div标签，所以增加此判断语句.若输入空白，此时input的类型为string,值为""
-        alert("请输入数字");
-    } else if (!isNaN(input)) {
-        if (input >= 10 && input <= 100) {
-            var newNumber = document.createElement("div");
-            newNumber.className = "number";
-            newNumber.innerHTML = input;
-            newNumber.style.height = input*3 + "px";
-            queue.appendChild(newNumber);
+    if (queue.childNodes.length <= 60) {
+        var input = document.getElementById("input-number").value;
+        if (input === "") { //未输入数字时仍能插入空白的div标签，所以增加此判断语句.若输入空白，此时input的类型为string,值为""
+            alert("请输入数字");
+        } else if (!isNaN(input)) {
+            if (input >= 10 && input <= 100) {
+                var newNumber = document.createElement("div");
+                newNumber.className = "number";
+                newNumber.innerHTML = input;
+                newNumber.style.height = input*3 + "px";
+                queue.appendChild(newNumber);
+            } else {
+                alert("请输入10~100范围内的数字");
+            }
         } else {
-            alert("请输入10~100范围内的数字");
+            alert("请输入有效的数字");
         }
-    } else {
-        alert("请输入有效的数字");
+    }else {
+        alert("队列里的数字不能超过60个");
     }
 }
 
@@ -123,9 +131,12 @@ function getRandomNumber() {
 }
 
 function getRandomQueue() {
-    for (var i = 0; i <= 10; i++) {
+    if ((queue.childNodes.length+10) <= 60)
+    for (var i = 0; i < 10; i++) {
         getRandomNumber();
         leftIn();
+    } else {
+        alert("队列里的数字不能超过60个");
     }
 }
 
@@ -169,7 +180,7 @@ function bubbleSort() {
         for (var j = i+1; j < queue.childNodes.length; j++) {
             if (listNumber[i] > listNumber[j]) {
                 count ++;
-                console.log(count);
+                //console.log(count);
                 swapNumber(queue.childNodes[i], queue.childNodes[j], count, i, j, listNumber);
             }
         }
