@@ -1,0 +1,35 @@
+#input-area {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 1px solid slateblue;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+.word {
+    display: inline-block;
+    min-width: 150px;
+    padding: 30px;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    font-size: 24px;
+    transition: all 0.4s ease;
+}
+
+.highlight {
+    background-color: rgba(248, 36, 111, 0.5);
+    transition: all 0.4s ease;
+}
