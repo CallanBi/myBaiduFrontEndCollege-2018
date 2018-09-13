@@ -49,3 +49,6 @@
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/103)
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/基础JavaScript练习/task1/task1.html)
 
+## 任务五：基础JavaScript练习（二）
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/105
+-[demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/基础JavaScript练习/task2/task2.html)
