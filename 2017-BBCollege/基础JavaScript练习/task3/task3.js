@@ -87,6 +87,9 @@ function searchNodes() {
     if (/\]/g.test(searchInput)) {
         searchInput = searchInput.replace(/\]/g, "\\]");
     }
+    if (/\\/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\\/g, "\\\]");
+    }
     if (/[,，、\s\t\n\r]+/g.test(searchInput)) {
         alert("您输入了非法字符。请勿包含分隔符，如\"，\"和空格等");
         return;
