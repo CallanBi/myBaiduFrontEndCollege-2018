@@ -46,6 +46,52 @@ function getWordNodes(input) {
 
 function searchNodes() {
     var searchInput = document.getElementById("search").value;
+
+    //检查输入是否包含正则表达式的元字符
+    if (/\./g.test(searchInput)) {
+        searchInput = searchInput.replace(/\./g, "\\.");
+    }
+    if (/\+/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\+/g, "\\+");
+    }
+    if (/\*/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\*/g, "\\*");
+    }
+    if (/\(/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\(/g, "\\(");
+    }
+    if (/\)/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\)/g, "\\)");
+    }
+    if (/\*/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\*/g, "\\*");
+    }
+    if (/\^/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\^/g, "\\^");
+    }
+    if (/\$/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\$/g, "\\$");
+    }
+    if (/\?/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\?/g, "\\?");
+    }
+    if (/\{/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\{/g, "\\{");
+    }
+    if (/\}/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\}/g, "\\}");
+    }
+    if (/\[/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\[/g, "\\[");
+    }
+    if (/\]/g.test(searchInput)) {
+        searchInput = searchInput.replace(/\]/g, "\\]");
+    }
+    if (/[,，、\s\t\n\r]+/g.test(searchInput)) {
+        alert("您输入了非法字符。请勿包含分隔符，如\"，\"和空格等");
+        return;
+    }
+
     var reg = new RegExp(searchInput, "gi"); //g表示全局，i表示对大小写不敏感
     //console.log(reg);
     var flag = 0; //是否查询到结果的标志
@@ -62,7 +108,7 @@ function searchNodes() {
             //console.log(queue.childNodes[i].innerHTML);
         } else { //消除原来的查询效果
             queue.childNodes[i].style.background = "";
-            queue.childNodes[i].innerHTML = queue.childNodes[i].innerHTML.replace(/<span class=\"highlight\">/g, "");
+            queue.childNodes[i].innerHTML = queue.childNodes[i].innerHTML.replace(/<span class="highlight">/g, "");
             queue.childNodes[i].innerHTML = queue.childNodes[i].innerHTML.replace(/<\/span>/g, "");
         }
     }
