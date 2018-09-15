@@ -70,7 +70,7 @@ Traverse.prototype = {
             }
         }
         if ((root.firstChild.nodeType === 3)) {
-            this.searchNodes(root.firstChild, this.preCount, searchInput);
+            this.searchNodes(root.firstChild, this.afterCount, searchInput);
             return;
         }
 
