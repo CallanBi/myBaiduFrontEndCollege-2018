@@ -63,4 +63,8 @@
 
 ## 任务八：JavaScript和树（二）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/110)
-- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/JavaScript和树/task2//task2)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/JavaScript和树/task2//task2.html)
+
+## 任务九：JavaScript和树（三）
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/111)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/JavaScript和树/task3//task3.html)
