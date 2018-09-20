@@ -1,4 +1,4 @@
-# myBaiduFrontEndCollege-2018
+# 百度前端学院2018与2017学习项目仓库
 跟着百度前端学院自己写的一些作业。<br>
 百度前端技术学院：[http://ife.baidu.com/](http://ife.baidu.com/) <br>
 另：JavaScript部分我先从2017年的斌斌学院开始做练习。<br>
