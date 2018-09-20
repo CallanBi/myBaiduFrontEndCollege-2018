@@ -30,7 +30,7 @@
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/Day9-11_helloLayout/helloLayout.html)
 
 ---
-# 百度前端2017 斌斌学院（JS部分）
+# 百度前端2017 斌斌学院
 
 ## 任务一：零基础JavaScript编码（一）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/93)
@@ -68,3 +68,9 @@
 ## 任务九：JavaScript和树（三）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/111)
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-BBCollege/JavaScript和树/task3/task3.html)
+
+# 百度前端2017 耀耀学院
+
+## 任务一：表单（一）单个表单项的检验
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/97)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/表单/task1/task1.html)
