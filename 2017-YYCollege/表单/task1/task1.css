@@ -1,0 +1,82 @@
+body {
+    font-family: -apple-system,"Microsoft YaHei UI",sans-serif;
+}
+
+#main-form {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: large;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#section1 {
+    border: none;
+}
+
+#input1-validate {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 20px;
+    width: 100px;
+    font-size: large;
+    line-height: 58px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #3079B9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.error-message {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 600px;
+    position: relative;
+    top: 0;
+    left: 110px;
+}
+
+.error-message.not-active {
+    color: #aaa;
+}
+
+.error-message.active {
+    color: #DC020F;
+}
+
+.error-message.validated {
+    color: #59B64A;
+}
+
+.input-box {
+    margin-left: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 500px;
+    line-height: 60px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    box-shadow: 0 .2em .4em rgba(0, 0, 0, 0.4);
+    font-size: large;
+    position: relative;
+    padding-left: 30px;
+    outline: none; /**/
+}
+
+.input-box:focus {
+
+}
+
+.input-box.input-box-validated {
+    border-color: #59B64A;
+    box-shadow: 0 .2em .4em rgba(89, 182, 74, 0.5);
+}
+
+.input-box.input-box-error {
+    border-color: #DC020F;
+    box-shadow: 0 .2em .4em rgba(220, 2, 15, 0.5);
+}
