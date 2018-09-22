@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+    <link rel="stylesheet" type="text/css" href="task2.css">
+</head>
+<body>
+<div id="form-wrapper">
+    <form id="main-form" action="task2.html">
+        <fieldset id="section1">
+            <label for="name">名称</label>
+            <input type="text" id="name" class="input-box" inputtype="username" required>
+            <span class="error-message not-active"  aria-live="polite"></span>
+        </fieldset>
+
+        <fieldset id="section2">
+            <label for="passwd-1">密码</label>
+            <input type="password" id="passwd-1" class="input-box" inputtype="password" required>
+            <span class="error-message not-active"  aria-live="polite"></span>
+        </fieldset>
+
+        <fieldset id="section3">
+            <label for="passwd-2">密码确认</label>
+            <input type="password" id="passwd-2" class="input-box" inputtype="passwdConform" required>
+            <span class="error-message not-active"  aria-live="polite"></span>
+        </fieldset>
+
+        <fieldset id="section4">
+            <label for="mail">邮箱</label>
+            <input type="email" id="mail" class="input-box" inputtype="mail" required>
+            <span class="error-message not-active"  aria-live="polite"></span>
+        </fieldset>
+
+        <fieldset id="section5">
+            <label for="phone">手机</label>
+            <input type="number" id="phone" class="input-box" inputtype="phone" required>
+            <span class="error-message not-active"  aria-live="polite"></span>
+        </fieldset>
+    </form>
+    <input id="input-validate" type="button" value="验证">
+</div>
+
+<script type="text/javascript" src="task2-logic.js"></script>
+
+</body>
+</html>
