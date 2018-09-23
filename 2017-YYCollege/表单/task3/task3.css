@@ -1,0 +1,121 @@
+body {
+    font-family: -apple-system, "Microsoft YaHei UI", sans-serif;
+    font-size: large;
+}
+
+fieldset {
+    outline: none;
+    border: none;
+    margin: 0 auto;
+}
+
+#select-radio {
+    margin-top: 2em;
+    max-width: 600px;
+    font-size: larger;
+}
+
+#graduate-label {
+    margin-left: 320px;
+}
+
+input[type="radio"] + label::before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: larger;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid rgb(204,204,204);
+    text-indent: .15em;
+    line-height: 1;
+}
+
+input[type="radio"] + label:hover::before {
+    box-shadow: 0 0 2px 2px rgba(58,151,251, 0.8);
+}
+
+input[type="radio"]:checked + label::before {
+    background-color: white;
+    background-clip: content-box;
+    border: 0.35em solid #3A97FB;
+}
+
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0); /*剪裁图像至不可见*/
+}
+
+#undergraduate {
+    max-width: 900px;
+}
+
+#region {
+    width: 320px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 55px;
+    border: 1px solid rgb(204,204,204);
+    box-shadow: 0 0 3px 1px rgba(204, 204, 204, 0.5);
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 80px;
+    outline: none;
+    font-size: large;
+}
+
+#region:hover,
+#region:focus {
+    box-shadow: 0 0 2px 2px rgba(58,151,251, 0.8);
+}
+
+#school:hover,
+#school:focus{
+    box-shadow: 0 0 2px 2px rgba(58,151,251, 0.8);
+}
+
+
+
+#school {
+    width: 320px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 55px;
+    border: 1px solid rgb(204,204,204);
+    box-shadow: 0 0 3px 1px rgba(204, 204, 204, 0.5);
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: 80px;
+    outline: none;
+    font-size: large;
+}
+
+#graduate {
+    max-width: 800px;
+}
+
+#workplace {
+    width: 620px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 55px;
+    border: 1px solid rgb(204,204,204);
+    box-shadow: 0 0 3px 1px rgba(204, 204, 204, 0.5);
+    border-radius: 8px;
+    margin-left: 35px;
+    margin-top: 80px;
+    outline: none;
+    padding-left: 1em;
+    font-size: large;
+}
+
+#workplace:hover,
+#workplace:focus {
+    box-shadow: 0 0 2px 2px rgba(58,151,251, 0.8);
+}
+
+
