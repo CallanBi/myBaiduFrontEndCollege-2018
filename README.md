@@ -79,3 +79,7 @@
 ### 任务二：表单（二）多个表单项的动态校验
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/101)
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/表单/task2/task2.html)
+
+### 任务三：表单（三）联动
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/106)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/表单/task3/task3.html)
