@@ -1,0 +1,90 @@
+body {
+    font-size: larger;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, opensans, Optima, "Microsoft YaHei UI Light", sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 880px;
+    margin: 20px auto;
+}
+
+th, td {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+}
+
+td {
+    border: 1px solid gainsboro;
+}
+
+th[scope="col"] {
+    border-bottom: 2px solid black;
+}
+
+th[scope="row"] {
+    border-right: 2px solid black;
+}
+.btnlist {
+    max-width: 792px;
+    margin: 0 auto;
+}
+
+td:nth-child(11) {
+    border-right: 2px solid black;
+}
+
+tr:nth-child(10) td {
+    border-bottom: 2px solid black;
+}
+
+tr:nth-child(1) th:nth-child(1) {
+    border-bottom: none;
+}
+
+#instruction {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 400px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: dodgerblue;
+    outline: none;
+}
+
+#do-instruction {
+    margin-right: 60px;
+}
+
+
+button:hover {
+    box-shadow: 0 0 3px 3px rgba(30,144,255, 0.6);
+}
+
+#block {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background: #F73859;
+    border-top: #404b69 solid 15px;
+    transition: all 0.3s;
+}
