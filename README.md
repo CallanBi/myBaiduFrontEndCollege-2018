@@ -83,3 +83,7 @@
 ### 任务三：表单（三）联动
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/106)
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/表单/task3/task3.html)
+
+### 任务四：听指令的小方块（一）
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/109)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/听指令的小方块/task1/task1.html)
