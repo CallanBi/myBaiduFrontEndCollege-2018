@@ -298,13 +298,13 @@ document.addEventListener("click", function (e) {
 document.addEventListener("keydown", function (e) {
     var event = e || window.event;
     var target = event.target;
-    if (String.fromCharCode(event.keyCode) === "W" || String.fromCharCode(event.keyCode) === "w" || String.fromCharCode(event.charCode) === "W" || String.fromCharCode(event.charCode) === "w") {
+    if (String.fromCharCode(event.keyCode) === "W" || String.fromCharCode(event.keyCode) === "w" ) {
         blockConfigInstance.myBlockMoveTop();
-    } else if (String.fromCharCode(event.keyCode) === "A" || String.fromCharCode(event.keyCode) === "a" || String.fromCharCode(event.charCode) === "A" || String.fromCharCode(event.charCode) === "a") {
+    } else if (String.fromCharCode(event.keyCode) === "A" || String.fromCharCode(event.keyCode) === "a" ) {
         blockConfigInstance.myBlockMoveLeft();
-    } else if (String.fromCharCode(event.keyCode) === "S" || String.fromCharCode(event.keyCode) === "s" || String.fromCharCode(event.charCode) === "S" || String.fromCharCode(event.charCode) === "s") {
+    } else if (String.fromCharCode(event.keyCode) === "S" || String.fromCharCode(event.keyCode) === "s" ) {
         blockConfigInstance.myBlockMoveBottom();
-    } else if (String.fromCharCode(event.keyCode) === "D" || String.fromCharCode(event.keyCode) === "d" || String.fromCharCode(event.charCode) === "D" || String.fromCharCode(event.charCode) === "d") {
+    } else if (String.fromCharCode(event.keyCode) === "D" || String.fromCharCode(event.keyCode) === "d" ) {
         blockConfigInstance.myBlockMoveRight();
     }
 });
