@@ -87,3 +87,7 @@
 ### 任务四：听指令的小方块（一）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/109)
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/听指令的小方块/task1/task1.html)
+
+### 任务五：听指令的小方块（二）
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/112)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/听指令的小方块/task2/task2.html)
