@@ -91,3 +91,9 @@
 ### 任务五：听指令的小方块（二）
 题目：[传送门](http://ife.baidu.com/2017/course/detail/id/112)
 - [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/听指令的小方块/task2/task2.html)
+
+### 任务六：UI组件之浮出层
+题目：[传送门](http://ife.baidu.com/2017/course/detail/id/115)
+- [demo](https://mcbihv.github.io/myBaiduFrontEndCollege-2018/2017-YYCollege/UI组件之浮出层/UIComponent.html) <br>
+这个任务没有写拖拽和伸缩，也没有解耦，准备日后重构一下
+
