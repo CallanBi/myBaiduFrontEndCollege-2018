@@ -1,0 +1,116 @@
+#float-wrapper {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.5);
+
+}
+
+#btn{
+    margin: 0 auto;
+    width: 6rem;
+    height: 3rem;
+    box-shadow: 1px 1px 3px 1px #bbb;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    background-color: #fafafa;
+}
+
+#float-component {
+    position: relative;
+    width: 50%;
+    max-width: 460px;
+    height: 250px;
+    margin: 3rem auto;
+    border-radius:10px;
+    background-color:#fff;
+    -webkit-animation: zoom 0.3s;
+    animation: zoom 0.3s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0.7);
+    }
+
+    45% {
+        -webkit-transform: scale(1.05);
+    }
+
+    80% {
+        -webkit-transform: scale(0.95);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.7);
+    }
+
+    45% {
+        transform: scale(1.05);
+    }
+
+    80% {
+        transform: scale(0.95);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+#float-component {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#float-footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+#float-footer button{
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 0.3rem;
+    outline: none;
+}
+
+#cancel {
+    background-color: #dc3545;
+}
+#ok {
+    background-color: #28a745;
+}
+
+#float-footer button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    #float-component {
+        width: 80%;
+    }
+}
